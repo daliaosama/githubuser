@@ -94,11 +94,17 @@ h3{
     width:7.31rem;
     height:7.31rem
 }
-
-
+.lightlinked{
+    color: #4B6A9B;
+}
+.darklinked{
+color:#ffffff
+}
 a:link{
     text-decoration: none;
-    color: #4B6A9B;
+}
+a:link:hover{
+    text-decoration: underline;
 }
 a:visited{
     color: #4B6A9B;

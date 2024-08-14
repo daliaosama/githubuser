@@ -51,7 +51,7 @@ function UserData() {
           </div>
           <div className="links">
             <img src={url}/>
-            <a href="https://github.blog">https://github.blog </a>
+            <a href="https://github.blog" className={passed.theme+"linked"}>https://github.blog </a>
           </div>
           <div className="links">
             <img src={office}  />
