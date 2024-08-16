@@ -1,4 +1,4 @@
-import UserData from '../UserData/UserData';
+
 import Search from './../Search/Search';
 import './Main.css'
 import { ThemeContext } from "../../App";
@@ -8,7 +8,7 @@ function Main(){
     return (
         <div id ="mid"className={passed.theme +"mid"}>
             <Search></Search>
-            <UserData></UserData>
+            
         </div>
     )
 }
